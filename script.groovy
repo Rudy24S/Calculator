@@ -9,6 +9,7 @@ def testApp() {
 def deployApp() {
     echo 'deploying the app'
     echo "deploying version ${params.VERSION}"
+    echo "${BASE_URL} ${params.VERSION}"
 }
 
 return this

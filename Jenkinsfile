@@ -1,5 +1,6 @@
 def groovyScript
 
+BASE_URL = 'https:...'
 pipeline {
     agent any
     parameters {
